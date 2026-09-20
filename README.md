@@ -2,6 +2,8 @@
 
 A software-only project simulating quantum bit control, calibration, and noise — built with QuTiP. The goal is to demonstrate hands-on understanding of the classical control problems behind quantum hardware, relevant to research on scalable, modular quantum control architectures.
 
+**[Read the full writeup](WRITEUP.md)** for results, figures, and what's next. Runnable scripts are in [`scripts/`](scripts/), per-step notes in [`notes/`](notes/), and generated plots in [`figures/`](figures/).
+
 ## Motivation
 
 Real qubits are controlled by classical hardware (pulse generators, amplifiers, control electronics) that is imperfect — noisy, imprecise, and harder to scale as qubit count grows. This project simulates that control problem in software: driving qubits with pulses, dealing with realistic noise and crosstalk, and building calibration routines to compensate for hardware imperfection.
